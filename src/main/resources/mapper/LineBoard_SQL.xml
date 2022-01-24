@@ -3,46 +3,46 @@
 <mapper namespace="com.testspring.test17.web.lineBoard.DAO.ILineBoardDao">
     <select id="getBoardCnt" parameterType="hashmap" resultType="Integer">
         SELECT COUNT(*) AS CNT
-        FROM O1
+        FROM o1
         WHERE 1=1
     </select>
 
     <select id="boardList" parameterType="HashMap" resultType="LineBoardDTO">
-        SELECT O.O_NO AS O_NO
-             , O.CON AS O_CON
-             , O.M_NM AS M_NM
-             , O.M_NO AS M_NO
-             , DATE_FORMAT(O.DT, '%Y-%m-%d %H:%i %p') AS DT
-        FROM (SELECT O1.O_NO AS O_NO
-                   , O1.CON AS CON
-                   , O1.M_NO AS M_NO
-                   , O1.O_DT AS DT
-                   , M1.M_NM AS M_NM
-                   , ROW_NUMBER() OVER(ORDER BY O_NO DESC) RNUM
-              FROM M1
-                       JOIN O1 ON M1.M_NO = O1.M_NO
+        SELECT O."O_NO" AS "O_NO"
+             , O."CON" AS "O_CON"
+             , O."M_NM" AS "M_NM"
+             , O."M_NO" AS "M_NO"
+             , TO_CHAR(O."DT", 'YYYY-MM-DD HH24:MI:SS.MS') AS "DT"
+        FROM (SELECT o."O_NO" AS "O_NO"
+                   , o."CON" AS "CON"
+                   , o."M_NO" AS "M_NO"
+                   , o."DT" AS "DT"
+                   , m."M_NM" AS "M_NM"
+                   , ROW_NUMBER() OVER(ORDER BY "O_NO" DESC) RNUM
+              FROM m1 AS m
+                       JOIN o1 AS o ON m."M_NO" = o."M_NO"
               WHERE 1 = 1
              ) O
-        WHERE O.RNUM BETWEEN #{startCnt} AND #{endCnt}
+        WHERE O.RNUM BETWEEN CAST(#{startCnt} AS INTEGER) AND CAST(#{endCnt} AS INTEGER);
     </select>
     <select id="getLogin" parameterType="hashmap" resultType="lineBoardDTO">
-        SELECT m_no, m_nm
+        SELECT "M_NO", "M_NM"
         FROM m1
-        WHERE m_id = #{m_id}
-          AND m_pw = #{m_pw}
+        WHERE "M_ID" = #{m_id}
+          AND "M_PW" = #{m_pw}
     </select>
     <insert id="addLineBoard" parameterType="hashmap">
-        INSERT INTO O1(m_no, con)
-        VALUES (#{m_no}, #{write_con})
+        INSERT INTO o1("O_NO", "M_NO", "CON")
+        VALUES (NEXTVAL('seq_o1' ), CAST(#{m_no} AS INTEGER), #{write_con})
     </insert>
 
     <delete id="deleteLineBoard" parameterType="hashmap">
-        DELETE FROM O1
-        WHERE o_no = #{no}
+        DELETE FROM o1
+        WHERE "O_NO" = CAST(#{no} AS INTEGER)
     </delete>
 
     <update id="updateLineBoard" parameterType="hashmap">
-        UPDATE O1 SET con = #{write_con}
-        WHERE O_NO = #{no}
+        UPDATE o1 SET "CON" = #{write_con}
+        WHERE "O_NO" = CAST(#{no} AS INTEGER)
     </update>
 </mapper>

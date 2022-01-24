@@ -1,0 +1,347 @@
+INFO  22-01-17 14:39:48[restartedMain] [Test17Application:55] - Starting Test17Application using Java 17.0.1 on LAPTOP-DEN086KG with PID 15796 (C:\workspace\studying\test17\target\classes started by 박경득사원 in C:\workspace\studying\test17)
+INFO  22-01-17 14:39:48[restartedMain] [Test17Application:635] - No active profile set, falling back to default profiles: default
+INFO  22-01-17 14:39:48[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  22-01-17 14:39:48[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  22-01-17 14:39:48[restartedMain] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-01-17 14:39:48[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  22-01-17 14:39:48[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+INFO  22-01-17 14:39:48[restartedMain] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-01-17 14:39:48[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO  22-01-17 14:39:48[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+DEBUG 22-01-17 14:39:49[restartedMain] [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+INFO  22-01-17 14:39:49[restartedMain] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$eb9c2843] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22-01-17 14:39:49[restartedMain] [AnnotationActionEndpointMapping:239] - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+INFO  22-01-17 14:39:49[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 9050 (http)
+INFO  22-01-17 14:39:49[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-9050"]
+INFO  22-01-17 14:39:49[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  22-01-17 14:39:49[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  22-01-17 14:39:49[restartedMain] [TldScanner:173] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO  22-01-17 14:39:49[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  22-01-17 14:39:49[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1242 ms
+INFO  22-01-17 14:39:49[restartedMain] [HikariDataSource:80] - HikariConnect - Starting...
+INFO  22-01-17 14:39:49[restartedMain] [HikariDataSource:82] - HikariConnect - Start completed.
+INFO  22-01-17 14:39:49[restartedMain] [H2ConsoleAutoConfiguration:89] - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost:3306/test?characterEncoding=UTF-8&serverTimezone=UTC'
+INFO  22-01-17 14:39:49[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  22-01-17 14:39:49[restartedMain] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  22-01-17 14:39:50[restartedMain] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  22-01-17 14:39:50[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  22-01-17 14:39:50[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  22-01-17 14:39:50[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  22-01-17 14:39:50[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  22-01-17 14:39:50[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  22-01-17 14:39:51[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-9050"]
+INFO  22-01-17 14:39:51[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 9050 (http) with context path ''
+INFO  22-01-17 14:39:51[restartedMain] [Test17Application:61] - Started Test17Application in 3.038 seconds (JVM running for 3.606)
+INFO  22-01-17 14:39:58[http-nio-9050-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  22-01-17 14:39:58[http-nio-9050-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  22-01-17 14:39:58[http-nio-9050-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  22-01-17 14:39:58[http-nio-9050-exec-1] [TestService:23] - INFO Level 테스트
+WARN  22-01-17 14:39:58[http-nio-9050-exec-1] [TestService:24] - warn Level 테스트
+ERROR 22-01-17 14:39:58[http-nio-9050-exec-1] [TestService:25] - ERROR Level 테스트
+DEBUG 22-01-17 14:39:58[http-nio-9050-exec-1] [TestController:28] - DEBUG Level 테스트
+INFO  22-01-17 14:39:58[http-nio-9050-exec-1] [TestController:29] - INFO Level 테스트
+WARN  22-01-17 14:39:58[http-nio-9050-exec-1] [TestController:30] - warn Level 테스트
+ERROR 22-01-17 14:39:58[http-nio-9050-exec-1] [TestController:31] - ERROR Level 테스트
+INFO  22-01-17 14:41:47[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  22-01-17 14:41:47[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariConnect - Shutdown initiated...
+INFO  22-01-17 14:41:47[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariConnect - Shutdown completed.
+INFO  22-01-17 14:41:49[restartedMain] [Test17Application:55] - Starting Test17Application using Java 17.0.1 on LAPTOP-DEN086KG with PID 10252 (C:\workspace\studying\test17\target\classes started by 박경득사원 in C:\workspace\studying\test17)
+INFO  22-01-17 14:41:49[restartedMain] [Test17Application:635] - No active profile set, falling back to default profiles: default
+INFO  22-01-17 14:41:49[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  22-01-17 14:41:49[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  22-01-17 14:41:49[restartedMain] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-01-17 14:41:49[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  22-01-17 14:41:49[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+INFO  22-01-17 14:41:49[restartedMain] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-01-17 14:41:49[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO  22-01-17 14:41:49[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+DEBUG 22-01-17 14:41:49[restartedMain] [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+INFO  22-01-17 14:41:49[restartedMain] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a162c967] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22-01-17 14:41:49[restartedMain] [AnnotationActionEndpointMapping:239] - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+INFO  22-01-17 14:41:50[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 9050 (http)
+INFO  22-01-17 14:41:50[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-9050"]
+INFO  22-01-17 14:41:50[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  22-01-17 14:41:50[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  22-01-17 14:41:50[restartedMain] [TldScanner:173] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO  22-01-17 14:41:50[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  22-01-17 14:41:50[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1206 ms
+INFO  22-01-17 14:41:50[restartedMain] [HikariDataSource:80] - HikariConnect - Starting...
+INFO  22-01-17 14:41:50[restartedMain] [HikariDataSource:82] - HikariConnect - Start completed.
+INFO  22-01-17 14:41:50[restartedMain] [H2ConsoleAutoConfiguration:89] - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost:3306/test?characterEncoding=UTF-8&serverTimezone=UTC'
+INFO  22-01-17 14:41:50[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  22-01-17 14:41:50[restartedMain] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  22-01-17 14:41:50[restartedMain] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  22-01-17 14:41:50[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  22-01-17 14:41:50[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  22-01-17 14:41:50[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  22-01-17 14:41:51[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  22-01-17 14:41:51[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  22-01-17 14:41:51[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-9050"]
+INFO  22-01-17 14:41:51[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 9050 (http) with context path ''
+INFO  22-01-17 14:41:51[restartedMain] [Test17Application:61] - Started Test17Application in 2.823 seconds (JVM running for 3.439)
+INFO  22-01-17 14:41:53[http-nio-9050-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  22-01-17 14:41:53[http-nio-9050-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  22-01-17 14:41:53[http-nio-9050-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  22-01-17 14:41:53[http-nio-9050-exec-1] [TestService:23] - INFO Level 테스트
+WARN  22-01-17 14:41:53[http-nio-9050-exec-1] [TestService:24] - warn Level 테스트
+ERROR 22-01-17 14:41:53[http-nio-9050-exec-1] [TestService:25] - ERROR Level 테스트
+DEBUG 22-01-17 14:41:53[http-nio-9050-exec-1] [TestController:28] - DEBUG Level 테스트
+INFO  22-01-17 14:41:53[http-nio-9050-exec-1] [TestController:29] - INFO Level 테스트
+WARN  22-01-17 14:41:53[http-nio-9050-exec-1] [TestController:30] - warn Level 테스트
+ERROR 22-01-17 14:41:53[http-nio-9050-exec-1] [TestController:31] - ERROR Level 테스트
+INFO  22-01-17 14:41:56[http-nio-9050-exec-2] [TestService:23] - INFO Level 테스트
+WARN  22-01-17 14:41:56[http-nio-9050-exec-2] [TestService:24] - warn Level 테스트
+ERROR 22-01-17 14:41:56[http-nio-9050-exec-2] [TestService:25] - ERROR Level 테스트
+DEBUG 22-01-17 14:41:56[http-nio-9050-exec-2] [TestController:28] - DEBUG Level 테스트
+INFO  22-01-17 14:41:56[http-nio-9050-exec-2] [TestController:29] - INFO Level 테스트
+WARN  22-01-17 14:41:56[http-nio-9050-exec-2] [TestController:30] - warn Level 테스트
+ERROR 22-01-17 14:41:56[http-nio-9050-exec-2] [TestController:31] - ERROR Level 테스트
+INFO  22-01-17 14:44:58[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  22-01-17 14:44:58[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariConnect - Shutdown initiated...
+INFO  22-01-17 14:44:58[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariConnect - Shutdown completed.
+DEBUG 22-01-17 15:02:01[restartedMain] [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG 22-01-17 15:11:29[restartedMain] [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG 22-01-17 15:14:18[restartedMain] [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG 22-01-17 15:17:03[restartedMain] [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+INFO  22-01-17 15:18:05[restartedMain] [Test17Application:55] - Starting Test17Application using Java 17.0.1 on LAPTOP-DEN086KG with PID 8920 (C:\workspace\studying\test17\target\classes started by 박경득사원 in C:\workspace\studying\test17)
+INFO  22-01-17 15:18:05[restartedMain] [Test17Application:635] - No active profile set, falling back to default profiles: default
+INFO  22-01-17 15:18:05[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  22-01-17 15:18:05[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  22-01-17 15:18:06[restartedMain] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-01-17 15:18:06[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  22-01-17 15:18:06[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+INFO  22-01-17 15:18:06[restartedMain] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-01-17 15:18:06[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO  22-01-17 15:18:06[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+DEBUG 22-01-17 15:18:06[restartedMain] [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+INFO  22-01-17 15:18:06[restartedMain] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a6b68bd5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22-01-17 15:18:06[restartedMain] [AnnotationActionEndpointMapping:239] - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+INFO  22-01-17 15:18:06[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 9050 (http)
+INFO  22-01-17 15:18:06[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-9050"]
+INFO  22-01-17 15:18:06[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  22-01-17 15:18:06[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  22-01-17 15:18:06[restartedMain] [TldScanner:173] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO  22-01-17 15:18:06[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  22-01-17 15:18:06[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1205 ms
+INFO  22-01-17 15:18:06[restartedMain] [HikariDataSource:80] - HikariConnect - Starting...
+INFO  22-01-17 15:18:06[restartedMain] [HikariDataSource:82] - HikariConnect - Start completed.
+INFO  22-01-17 15:18:07[restartedMain] [H2ConsoleAutoConfiguration:89] - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost:3306/test?characterEncoding=UTF-8&serverTimezone=UTC'
+INFO  22-01-17 15:18:07[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  22-01-17 15:18:07[restartedMain] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  22-01-17 15:18:07[restartedMain] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  22-01-17 15:18:07[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  22-01-17 15:18:07[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  22-01-17 15:18:07[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  22-01-17 15:18:07[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  22-01-17 15:18:08[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  22-01-17 15:18:08[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-9050"]
+INFO  22-01-17 15:18:08[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 9050 (http) with context path ''
+INFO  22-01-17 15:18:08[restartedMain] [Test17Application:61] - Started Test17Application in 2.753 seconds (JVM running for 3.292)
+INFO  22-01-17 15:18:13[http-nio-9050-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  22-01-17 15:18:13[http-nio-9050-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  22-01-17 15:18:13[http-nio-9050-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  22-01-17 15:18:13[http-nio-9050-exec-1] [TestService:23] - INFO Level 테스트
+WARN  22-01-17 15:18:13[http-nio-9050-exec-1] [TestService:24] - warn Level 테스트
+ERROR 22-01-17 15:18:13[http-nio-9050-exec-1] [TestService:25] - ERROR Level 테스트
+DEBUG 22-01-17 15:18:13[http-nio-9050-exec-1] [TestController:28] - DEBUG Level 테스트
+INFO  22-01-17 15:18:13[http-nio-9050-exec-1] [TestController:29] - INFO Level 테스트
+WARN  22-01-17 15:18:13[http-nio-9050-exec-1] [TestController:30] - warn Level 테스트
+ERROR 22-01-17 15:18:13[http-nio-9050-exec-1] [TestController:31] - ERROR Level 테스트
+INFO  22-01-17 15:25:03[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  22-01-17 15:25:03[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariConnect - Shutdown initiated...
+INFO  22-01-17 15:25:03[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariConnect - Shutdown completed.
+INFO  22-01-17 15:25:04[restartedMain] [Test17Application:55] - Starting Test17Application using Java 17.0.1 on LAPTOP-DEN086KG with PID 14748 (C:\workspace\studying\test17\target\classes started by 박경득사원 in C:\workspace\studying\test17)
+INFO  22-01-17 15:25:04[restartedMain] [Test17Application:635] - No active profile set, falling back to default profiles: default
+INFO  22-01-17 15:25:04[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  22-01-17 15:25:04[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  22-01-17 15:25:05[restartedMain] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-01-17 15:25:05[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  22-01-17 15:25:05[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+INFO  22-01-17 15:25:05[restartedMain] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-01-17 15:25:05[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO  22-01-17 15:25:05[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+DEBUG 22-01-17 15:25:05[restartedMain] [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+INFO  22-01-17 15:25:05[restartedMain] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a46f1c0d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22-01-17 15:25:05[restartedMain] [AnnotationActionEndpointMapping:239] - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+INFO  22-01-17 15:25:05[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 9050 (http)
+INFO  22-01-17 15:25:06[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-9050"]
+INFO  22-01-17 15:25:06[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  22-01-17 15:25:06[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  22-01-17 15:25:06[restartedMain] [TldScanner:173] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO  22-01-17 15:25:06[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  22-01-17 15:25:06[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1299 ms
+INFO  22-01-17 15:25:06[restartedMain] [HikariDataSource:80] - HikariConnect - Starting...
+INFO  22-01-17 15:25:06[restartedMain] [HikariDataSource:82] - HikariConnect - Start completed.
+INFO  22-01-17 15:25:06[restartedMain] [H2ConsoleAutoConfiguration:89] - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost:3306/test?characterEncoding=UTF-8&serverTimezone=UTC'
+INFO  22-01-17 15:25:06[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  22-01-17 15:25:06[restartedMain] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  22-01-17 15:25:06[restartedMain] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  22-01-17 15:25:06[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  22-01-17 15:25:06[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  22-01-17 15:25:06[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  22-01-17 15:25:06[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  22-01-17 15:25:07[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  22-01-17 15:25:07[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-9050"]
+INFO  22-01-17 15:25:07[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 9050 (http) with context path ''
+INFO  22-01-17 15:25:07[restartedMain] [Test17Application:61] - Started Test17Application in 3.012 seconds (JVM running for 3.63)
+INFO  22-01-17 15:25:09[http-nio-9050-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  22-01-17 15:25:09[http-nio-9050-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  22-01-17 15:25:09[http-nio-9050-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  22-01-17 15:25:09[http-nio-9050-exec-1] [TestService:23] - INFO Level 테스트
+WARN  22-01-17 15:25:09[http-nio-9050-exec-1] [TestService:24] - warn Level 테스트
+ERROR 22-01-17 15:25:09[http-nio-9050-exec-1] [TestService:25] - ERROR Level 테스트
+DEBUG 22-01-17 15:25:09[http-nio-9050-exec-1] [TestController:28] - DEBUG Level 테스트
+INFO  22-01-17 15:25:09[http-nio-9050-exec-1] [TestController:29] - INFO Level 테스트
+WARN  22-01-17 15:25:09[http-nio-9050-exec-1] [TestController:30] - warn Level 테스트
+ERROR 22-01-17 15:25:09[http-nio-9050-exec-1] [TestController:31] - ERROR Level 테스트
+INFO  22-01-17 15:54:10[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  22-01-17 15:54:10[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariConnect - Shutdown initiated...
+INFO  22-01-17 15:54:10[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariConnect - Shutdown completed.
+INFO  22-01-17 15:54:46[restartedMain] [Test17Application:55] - Starting Test17Application using Java 17.0.1 on LAPTOP-DEN086KG with PID 17912 (C:\workspace\studying\test17\target\classes started by 박경득사원 in C:\workspace\studying\test17)
+INFO  22-01-17 15:54:46[restartedMain] [Test17Application:635] - No active profile set, falling back to default profiles: default
+INFO  22-01-17 15:54:46[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  22-01-17 15:54:46[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  22-01-17 15:54:47[restartedMain] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-01-17 15:54:47[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  22-01-17 15:54:47[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+INFO  22-01-17 15:54:47[restartedMain] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-01-17 15:54:47[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO  22-01-17 15:54:47[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+DEBUG 22-01-17 15:54:47[restartedMain] [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+INFO  22-01-17 15:54:47[restartedMain] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5725dc39] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22-01-17 15:54:47[restartedMain] [AnnotationActionEndpointMapping:239] - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+INFO  22-01-17 15:54:47[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 9050 (http)
+INFO  22-01-17 15:54:47[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-9050"]
+INFO  22-01-17 15:54:47[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  22-01-17 15:54:47[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  22-01-17 15:54:47[restartedMain] [TldScanner:173] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO  22-01-17 15:54:47[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  22-01-17 15:54:47[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1296 ms
+INFO  22-01-17 15:54:47[restartedMain] [HikariDataSource:80] - HikariConnect - Starting...
+INFO  22-01-17 15:54:47[restartedMain] [HikariDataSource:82] - HikariConnect - Start completed.
+INFO  22-01-17 15:54:47[restartedMain] [H2ConsoleAutoConfiguration:89] - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost:3306/test?characterEncoding=UTF-8&serverTimezone=UTC'
+INFO  22-01-17 15:54:48[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  22-01-17 15:54:48[restartedMain] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  22-01-17 15:54:48[restartedMain] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  22-01-17 15:54:48[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  22-01-17 15:54:48[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  22-01-17 15:54:48[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  22-01-17 15:54:48[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  22-01-17 15:54:48[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  22-01-17 15:54:48[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-9050"]
+INFO  22-01-17 15:54:48[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 9050 (http) with context path ''
+INFO  22-01-17 15:54:48[restartedMain] [Test17Application:61] - Started Test17Application in 2.925 seconds (JVM running for 3.626)
+INFO  22-01-17 15:55:19[http-nio-9050-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  22-01-17 15:55:19[http-nio-9050-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  22-01-17 15:55:19[http-nio-9050-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  22-01-17 15:55:19[http-nio-9050-exec-1] [TestService:23] - INFO Level 테스트
+WARN  22-01-17 15:55:19[http-nio-9050-exec-1] [TestService:24] - warn Level 테스트
+ERROR 22-01-17 15:55:19[http-nio-9050-exec-1] [TestService:25] - ERROR Level 테스트
+DEBUG 22-01-17 15:55:19[http-nio-9050-exec-1] [TestController:28] - DEBUG Level 테스트
+INFO  22-01-17 15:55:19[http-nio-9050-exec-1] [TestController:29] - INFO Level 테스트
+WARN  22-01-17 15:55:19[http-nio-9050-exec-1] [TestController:30] - warn Level 테스트
+ERROR 22-01-17 15:55:19[http-nio-9050-exec-1] [TestController:31] - ERROR Level 테스트
+INFO  22-01-17 16:07:06[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  22-01-17 16:07:06[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariConnect - Shutdown initiated...
+INFO  22-01-17 16:07:06[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariConnect - Shutdown completed.
+INFO  22-01-17 16:07:09[restartedMain] [Test17Application:55] - Starting Test17Application using Java 17.0.1 on LAPTOP-DEN086KG with PID 15460 (C:\workspace\studying\test17\target\classes started by 박경득사원 in C:\workspace\studying\test17)
+INFO  22-01-17 16:07:09[restartedMain] [Test17Application:635] - No active profile set, falling back to default profiles: default
+INFO  22-01-17 16:07:09[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  22-01-17 16:07:09[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  22-01-17 16:07:09[restartedMain] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-01-17 16:07:09[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  22-01-17 16:07:09[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+INFO  22-01-17 16:07:09[restartedMain] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-01-17 16:07:09[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO  22-01-17 16:07:09[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+DEBUG 22-01-17 16:07:10[restartedMain] [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+INFO  22-01-17 16:07:10[restartedMain] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a46f1c0d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22-01-17 16:07:10[restartedMain] [AnnotationActionEndpointMapping:239] - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+INFO  22-01-17 16:07:10[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 9050 (http)
+INFO  22-01-17 16:07:10[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-9050"]
+INFO  22-01-17 16:07:10[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  22-01-17 16:07:10[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  22-01-17 16:07:10[restartedMain] [TldScanner:173] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO  22-01-17 16:07:10[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  22-01-17 16:07:10[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1233 ms
+INFO  22-01-17 16:07:10[restartedMain] [HikariDataSource:80] - HikariConnect - Starting...
+INFO  22-01-17 16:07:10[restartedMain] [HikariDataSource:82] - HikariConnect - Start completed.
+INFO  22-01-17 16:07:10[restartedMain] [H2ConsoleAutoConfiguration:89] - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost:3306/test?characterEncoding=UTF-8&serverTimezone=UTC'
+INFO  22-01-17 16:07:10[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  22-01-17 16:07:10[restartedMain] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  22-01-17 16:07:10[restartedMain] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  22-01-17 16:07:10[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  22-01-17 16:07:11[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  22-01-17 16:07:11[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  22-01-17 16:07:11[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  22-01-17 16:07:11[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  22-01-17 16:07:11[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-9050"]
+INFO  22-01-17 16:07:11[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 9050 (http) with context path ''
+INFO  22-01-17 16:07:11[restartedMain] [Test17Application:61] - Started Test17Application in 2.905 seconds (JVM running for 3.523)
+INFO  22-01-17 16:07:12[http-nio-9050-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  22-01-17 16:07:12[http-nio-9050-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  22-01-17 16:07:12[http-nio-9050-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  22-01-17 16:07:12[http-nio-9050-exec-1] [TestService:23] - INFO Level 테스트
+WARN  22-01-17 16:07:12[http-nio-9050-exec-1] [TestService:24] - warn Level 테스트
+ERROR 22-01-17 16:07:12[http-nio-9050-exec-1] [TestService:25] - ERROR Level 테스트
+DEBUG 22-01-17 16:07:12[http-nio-9050-exec-1] [TestController:28] - DEBUG Level 테스트
+INFO  22-01-17 16:07:12[http-nio-9050-exec-1] [TestController:29] - INFO Level 테스트
+WARN  22-01-17 16:07:12[http-nio-9050-exec-1] [TestController:30] - warn Level 테스트
+ERROR 22-01-17 16:07:12[http-nio-9050-exec-1] [TestController:31] - ERROR Level 테스트
+INFO  22-01-17 16:19:23[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  22-01-17 16:19:23[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariConnect - Shutdown initiated...
+                                                             INFO  22-01-17 16:19:23[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariConnect - Shutdown completed.
+INFO  22-01-17 16:50:21[restartedMain] [Test17Application:55] - Starting Test17Application using Java 17.0.1 on LAPTOP-DEN086KG with PID 6196 (C:\workspace\studying\test17\target\classes started by 박경득사원 in C:\workspace\studying\test17)
+INFO  22-01-17 16:50:21[restartedMain] [Test17Application:639] - The following profiles are active: local
+INFO  22-01-17 16:50:21[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  22-01-17 16:50:21[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  22-01-17 16:50:22[restartedMain] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-01-17 16:50:22[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  22-01-17 16:50:22[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+INFO  22-01-17 16:50:22[restartedMain] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-01-17 16:50:22[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO  22-01-17 16:50:22[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+DEBUG 22-01-17 16:50:22[restartedMain] [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+INFO  22-01-17 16:50:22[restartedMain] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$69e5e820] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22-01-17 16:50:22[restartedMain] [AnnotationActionEndpointMapping:239] - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+INFO  22-01-17 16:50:22[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 9050 (http)
+INFO  22-01-17 16:50:22[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-9050"]
+INFO  22-01-17 16:50:22[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  22-01-17 16:50:22[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  22-01-17 16:50:23[restartedMain] [TldScanner:173] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO  22-01-17 16:50:23[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  22-01-17 16:50:23[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1215 ms
+INFO  22-01-17 16:50:23[restartedMain] [HikariDataSource:80] - HikariConnect - Starting...
+INFO  22-01-17 16:50:23[restartedMain] [HikariDataSource:82] - HikariConnect - Start completed.
+INFO  22-01-17 16:50:23[restartedMain] [H2ConsoleAutoConfiguration:89] - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost:3306/test?characterEncoding=UTF-8&serverTimezone=UTC'
+INFO  22-01-17 16:50:23[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  22-01-17 16:50:23[restartedMain] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  22-01-17 16:50:23[restartedMain] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  22-01-17 16:50:23[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  22-01-17 16:50:23[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  22-01-17 16:50:23[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  22-01-17 16:50:23[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  22-01-17 16:50:24[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  22-01-17 16:50:24[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-9050"]
+INFO  22-01-17 16:50:24[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 9050 (http) with context path ''
+INFO  22-01-17 16:50:24[restartedMain] [Test17Application:61] - Started Test17Application in 2.865 seconds (JVM running for 3.444)
+INFO  22-01-17 16:50:25[http-nio-9050-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  22-01-17 16:50:25[http-nio-9050-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  22-01-17 16:50:25[http-nio-9050-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  22-01-17 16:50:25[http-nio-9050-exec-1] [TestService:23] - INFO Level 테스트
+WARN  22-01-17 16:50:25[http-nio-9050-exec-1] [TestService:24] - warn Level 테스트
+ERROR 22-01-17 16:50:25[http-nio-9050-exec-1] [TestService:25] - ERROR Level 테스트
+DEBUG 22-01-17 16:50:25[http-nio-9050-exec-1] [TestController:28] - DEBUG Level 테스트
+INFO  22-01-17 16:50:25[http-nio-9050-exec-1] [TestController:29] - INFO Level 테스트
+WARN  22-01-17 16:50:25[http-nio-9050-exec-1] [TestController:30] - warn Level 테스트
+ERROR 22-01-17 16:50:25[http-nio-9050-exec-1] [TestController:31] - ERROR Level 테스트
+INFO  22-01-17 16:50:28[http-nio-9050-exec-2] [TestService:23] - INFO Level 테스트
+WARN  22-01-17 16:50:28[http-nio-9050-exec-2] [TestService:24] - warn Level 테스트
+ERROR 22-01-17 16:50:28[http-nio-9050-exec-2] [TestService:25] - ERROR Level 테스트
+DEBUG 22-01-17 16:50:28[http-nio-9050-exec-2] [TestController:28] - DEBUG Level 테스트
+INFO  22-01-17 16:50:28[http-nio-9050-exec-2] [TestController:29] - INFO Level 테스트
+WARN  22-01-17 16:50:28[http-nio-9050-exec-2] [TestController:30] - warn Level 테스트
+ERROR 22-01-17 16:50:28[http-nio-9050-exec-2] [TestController:31] - ERROR Level 테스트
+INFO  22-01-17 16:50:57[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  22-01-17 16:50:57[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariConnect - Shutdown initiated...
+INFO  22-01-17 16:50:57[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariConnect - Shutdown completed.
