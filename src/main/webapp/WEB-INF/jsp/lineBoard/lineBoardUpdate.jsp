@@ -11,7 +11,7 @@
     </script>
 </head>
 <body>
-<form action="lineBoard" id="goForm" method="post">
+<form action="/" id="goForm" method="post">
     <input type="hidden" name="page" value="${param.page}" />
 </form>
 </body>

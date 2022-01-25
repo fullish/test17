@@ -24,7 +24,7 @@ public class LineBoardController {
     @Autowired
     public IPagingService ipagingService;
 
-    @RequestMapping(value = "/lineBoard")
+    @RequestMapping(value = "/")
     public ModelAndView lineBoard(@RequestParam HashMap<String, String> params) throws Throwable {
         int page = 1;
         int cnt = lineBoardService.getBoardCnt();
@@ -57,7 +57,7 @@ public class LineBoardController {
     public ModelAndView login (HttpSession session){
         ModelAndView mav = new ModelAndView("lineBoard/login");
              if (session.getAttribute("sMNo") != null){
-                 mav.setViewName("redirect:lineBoard");
+                 mav.setViewName("redirect:/");
              }else {
                  mav.setViewName("lineBoard/login");
              }
@@ -76,7 +76,7 @@ public class LineBoardController {
             session.setAttribute("sMNo", data.getM_no());
             session.setAttribute("sMNm", data.getM_nm());
             System.out.println(session.getAttribute("sMNm"));
-            mav.setViewName("redirect:lineBoard");
+            mav.setViewName("redirect:/");
         } else {
             mav.addObject("msg", "아이디나 비밀번호가 틀립니다.");
             mav.setViewName("failedAction");
@@ -88,7 +88,7 @@ public class LineBoardController {
         int cnt = lineBoardService.addLindBoard(params);
 
         if (cnt > 0){
-            mav.setViewName("redirect:lineBoard");
+            mav.setViewName("redirect:/");
         }else {
             mav.addObject("msg", "글 작성에 문제가 발생하였습니다.");
             mav.setViewName("failedAction");
@@ -100,7 +100,7 @@ public class LineBoardController {
         int cnt = lineBoardService.deleteLineBoard(params);
 
         if (cnt > 0){
-            mav.setViewName("redirect:lineBoard");
+            mav.setViewName("redirect:/");
         }else {
             mav.addObject("msg", "삭제중 문제가 발생하였습니다.");
             mav. setViewName("failedAction");

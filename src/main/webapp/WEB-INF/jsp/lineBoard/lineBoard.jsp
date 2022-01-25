@@ -189,13 +189,13 @@
 
             if("${page}" > "${pb.maxPcount}"){
                 $("#page").val("${pb.maxPcount}");
-                $("#actionForm").attr("action","lineBoard");
+                $("#actionForm").attr("action","/");
                 $("#actionForm").submit();
             };
 
             $("#paging_wrap").on("click","span",function(){
                 $("#page").val($(this).attr("page"));
-                $("#actionForm").attr("action","lineBoard");
+                $("#actionForm").attr("action","/");
                 $("#actionForm").submit();
             });
 
